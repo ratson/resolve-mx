@@ -1,0 +1,27 @@
+{
+  "name": "resolve-mx",
+  "version": "0.0.0",
+  "description": "Resolve mail exchange records as promise.",
+  "scripts": {
+    "lint": "eslint --ext js,md .",
+    "test": "ava",
+    "posttest": "npm run lint"
+  },
+  "dependencies": {
+    "pify": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint": "^4.1.0",
+    "eslint-config-concise": "^0.7.0",
+    "eslint-plugin-ava": "^4.2.1"
+  },
+  "repository": "ratson/resolve-mx",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "index.js"
+  ]
+}
