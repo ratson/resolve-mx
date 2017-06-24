@@ -1,6 +1,6 @@
 {
   "name": "resolve-mx",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Resolve mail exchange records as promise.",
   "scripts": {
     "lint": "eslint --ext js,md .",
